@@ -17,10 +17,10 @@ const Header  = () => {
       {/* navigation section */}
       <nav  style={{display: 'flex', gap: '8px', color: '#2D2C2D'}}>
             {[ 
-              { src: '/images/Search_nav_icon.svg', alt: 'Search', label: 'Search' },
-              { src: '/images/Heart_nav_icon.svg', alt: 'Favorites', label: 'Favorites' },
-              { src: '/images/Cart_nav_icon.svg', alt: 'Cart', label: 'Cart' },
-              { src: '/images/Menu_nav_icon.svg', alt: 'Menu', label: 'Menu' },
+              { src: '../images/Search_nav_icon.svg', alt: 'Search', label: 'Search' },
+              { src: '../images/Heart_nav_icon.svg', alt: 'Favorites', label: 'Favorites' },
+              { src: '../images/Cart_nav_icon.svg', alt: 'Cart', label: 'Cart' },
+              { src: '../images/Menu_nav_icon.svg', alt: 'Menu', label: 'Menu' },
             ].map((icon, i) => (
               
               <button

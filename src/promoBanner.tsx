@@ -33,7 +33,7 @@ const PromoBanner = () => {
       <div
         style={{width: '352px', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center',}}>
         <img
-          src="/images/VegetablesPromo.jpg"
+          src="../images/VegetablesPromo.jpg"
           alt="Promo"
           style={{maxWidth: '100%', maxHeight: '100%', objectFit: 'cover', borderRadius: '8px'}}/>
       </div>
