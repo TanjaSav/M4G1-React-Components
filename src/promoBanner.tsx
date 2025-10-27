@@ -1,6 +1,8 @@
 // PromoBanner component — displays a promotional card with text and image
 const PromoBanner = () => {
 
+  const base = import.meta.env.BASE_URL;
+
   return (
 
   // Outer container for the banner
@@ -16,7 +18,7 @@ const PromoBanner = () => {
         style={{width: '205px', padding: '0', height: '100%', marginLeft: '35px', display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
         <h2
           style={{fontFamily: 'Poppins', fontSize: '19px', fontStyle: 'normal', fontWeight: '500', lineHeight: '100%', margin: '0'}}>
-          Get 10% OFF all vegetables
+          Get <span style={{color:'red'}}>10% </span>OFF all vegetables
         </h2>
         <p
           style={{fontFamily: 'Poppins', fontSize: '13px', fontWeight: 400, lineHeight: '110%', color: '#333333', marginBottom: '14px'}}>
@@ -33,7 +35,7 @@ const PromoBanner = () => {
       <div
         style={{width: '352px', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center',}}>
         <img
-          src="/images/VegetablesPromo.jpg"
+          src={`${base}images/VegetablesPromo.jpg`}
           alt="Promo"
           style={{maxWidth: '100%', maxHeight: '100%', objectFit: 'cover', borderRadius: '8px'}}/>
       </div>

@@ -24,7 +24,7 @@ A React project built with Vite and TypeScript. Includes reusable components lik
 `npm run dev`
 
 
-## Demo Link: 
+## Demo Link: https://tanjasav.github.io/M4G1-React-Components/
 
 
 
